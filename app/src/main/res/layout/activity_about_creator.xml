@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.venom.bestreviewapp.ReviewApp.AboutCreator">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="About the Creator"
+            android:id="@+id/textView3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Young student that is required to build an app as a project. Male looking forward to be in the programming world and working to get to that point. The project might not be as big or exactly what you expected but it is in my hopes and wishes to just get noticed out there. As time was not on my side i could not have developed a powerful app but be sure to look out in the future for good programs that will be developed by me. Thank you for your support and using this app. "
+            android:id="@+id/textView2" android:layout_below="@+id/textView3" android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/venomdeep"
+            android:layout_below="@+id/textView2" android:layout_alignParentRight="true"
+            android:layout_marginTop="44dp"/>
+</RelativeLayout>

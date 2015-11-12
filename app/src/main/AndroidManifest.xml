@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.venom.bestreviewapp.ReviewApp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/myi_image"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="ReviewApp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutCreator"
+            android:label="@string/title_activity_about_creator" >
+            <intent-filter>
+                <action android:name="com.venom.bestreviewapp.app.AboutCreator" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Review"
+            android:label="@string/title_activity_review" >
+            <intent-filter>
+                <action android:name="com.venom.bestreviewapp.app.Review" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FunInformation"
+            android:label="@string/title_activity_fun_information" >
+            <intent-filter>
+                <action android:name="com.venom.bestreviewapp.app.FunInformation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutApp"
+            android:label="@string/title_activity_about_app" >
+            <intent-filter>
+                <action android:name="com.venom.bestreviewapp.app.AboutApp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EnterReview"
+            android:label="@string/title_activity_enter_review" >
+            <intent-filter>
+                <action android:name="com.venom.bestreviewapp.app.EnterReview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EnterInfo"
+            android:label="@string/title_activity_enter_info" >
+            <intent-filter>
+                <action android:name="com.venom.bestreviewapp.app.EnterInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

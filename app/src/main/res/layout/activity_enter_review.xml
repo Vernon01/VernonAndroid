@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.venom.bestreviewapp.ReviewApp.EnterReview" android:background="@drawable/heyyyy">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter The movies name and how you experienced the movie below.."
+            android:id="@+id/textView12" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textColor="#fe000004" android:background="#fffff3f7"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_view"
+            android:editable="true"
+            android:background="#fffff7f3"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button_SubmitView" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Name of the Movie"
+            android:id="@+id/textView15" android:layout_above="@+id/editText_view"
+            android:layout_alignRight="@+id/editText_view" android:layout_marginRight="145dp"
+            android:textColor="#ff38ff0e" android:background="#ff1a0000"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_view1"
+            android:background="#fffcfffd" android:layout_below="@+id/editText_view"
+            android:layout_alignParentLeft="true" android:layout_marginTop="64dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Experience of the movie"
+            android:id="@+id/textView17"
+            android:textColor="#ff15fb06" android:background="#ff280005" android:layout_below="@+id/editText_view1"
+            android:layout_alignLeft="@+id/textView15"/>
+</RelativeLayout>

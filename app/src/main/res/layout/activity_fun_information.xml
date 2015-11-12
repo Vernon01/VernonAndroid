@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.venom.bestreviewapp.ReviewApp.FunInformation" android:background="@drawable/eye">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="FUN INFORMATION"
+            android:id="@+id/textView5" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textColor="#ff3eff12"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here you can write or find any cool information about places, cars, music, supplements or anything you can think of you can post here for fun information. You can just enter some info or get it."
+            android:id="@+id/textView6" android:layout_below="@+id/textView5" android:layout_alignParentLeft="true"
+            android:layout_marginTop="44dp" android:textColor="#fbff7217" android:background="#fffffbf3"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Dont Post NONSENSE PLEASE!!!"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView6" android:layout_alignParentRight="true"
+            android:layout_marginTop="36dp" android:textColor="#ffff020e" android:background="#fffff2f4"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter InFo"
+            android:id="@+id/button7"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get InFo"
+            android:id="@+id/button8"
+            android:layout_marginTop="65dp"
+            android:layout_below="@+id/button7" android:layout_alignRight="@+id/textView7"/>
+</RelativeLayout>

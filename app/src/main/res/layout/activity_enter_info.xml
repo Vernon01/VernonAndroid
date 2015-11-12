@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.venom.bestreviewapp.ReviewApp.EnterInfo" android:background="@drawable/fire">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter Some Cool Info You Would Like To Share!!! It might be useful to someone!!!"
+            android:id="@+id/textView13" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:autoText="false" android:textColor="#ffff8118"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_marginBottom="115dp" android:editable="true"
+            android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+            android:shadowColor="#fffff2e9" android:singleLine="false" android:visibility="visible"
+            android:enabled="true" android:textColor="#ff14b304" android:background="#ff3e4355"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/eins" android:layout_above="@+id/editText2" android:layout_alignParentRight="true"
+            android:layout_marginBottom="44dp"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button10" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click on the grey bar to enter text.."
+            android:id="@+id/textView14"
+            android:textColor="#ff19ff04" android:layout_above="@+id/editText2"
+            android:layout_toRightOf="@+id/button10"/>
+</RelativeLayout>
